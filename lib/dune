@@ -1,0 +1,3 @@
+(library
+ (name gshop_scrapper)
+ (libraries lambdasoup cohttp cohttp-lwt-unix uri))

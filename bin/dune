@@ -1,0 +1,4 @@
+(executable
+ (public_name gshop_scrapper)
+ (name main)
+ (libraries gshop_scrapper))
