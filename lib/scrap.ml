@@ -107,7 +107,6 @@ let scrap_offers page =
   |> OfferMap.bindings
   |> List.map snd
   |> List.sort sort_offers
-(* let l = r |> OfferMap.bindings |> List.map (fun (_, o) -> show_offer o) *)
 
 let products =
   sopa
